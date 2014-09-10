@@ -1,0 +1,22 @@
+<plugin name='envers' version='0.5.0' grailsVersion='2.1.0 &gt; *'>
+  <author>Lucas Ward</author>
+  <title>Grails Envers Plugin</title>
+  <description>Plugin to integrate grails with Hibernate Envers</description>
+  <documentation>http://grails.org/plugin/envers</documentation>
+  <type>EnversGrailsPlugin</type>
+  <resources>
+    <resource>spring.resources</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <compile>
+      <dependency group='org.hibernate' name='hibernate-envers' version='3.6.10.Final' />
+    </compile>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
