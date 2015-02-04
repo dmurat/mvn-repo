@@ -1,0 +1,16 @@
+<plugin name='taxonomy' version='1.2.1.BUILD-SNAPSHOT' grailsVersion='2.3 &gt; *'>
+  <author>Marc Palmer</author>
+  <authorEmail>marc@grailsrocks.com</authorEmail>
+  <title>Taxonomy Plugin</title>
+  <description>\
+Add hierarchical tags (taxonomies) to any domain classes.
+</description>
+  <documentation>http://grails.org/Taxonomy+Plugin</documentation>
+  <type>TaxonomyGrailsPlugin</type>
+  <resources>
+    <resource>com.grailsrocks.taxonomy.Taxon</resource>
+    <resource>com.grailsrocks.taxonomy.TaxonLink</resource>
+    <resource>com.grailsrocks.taxonomy.Taxonomy</resource>
+    <resource>com.grailsrocks.taxonomy.TaxonomyService</resource>
+  </resources>
+</plugin>
