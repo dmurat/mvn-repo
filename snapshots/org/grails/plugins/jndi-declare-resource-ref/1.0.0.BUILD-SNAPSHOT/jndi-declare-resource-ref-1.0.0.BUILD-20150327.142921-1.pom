@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>jndi-declare-resource-ref</artifactId>
+  <packaging>zip</packaging>
+  <version>1.0.0.BUILD-SNAPSHOT</version>
+  <name>Declare JNDI resource references</name>
+  <description>Automatically creates web.xml resource-ref entries for JNDI datasources and mail sessions used in application.
+It also allows manual declaration of custom resource-ref and resource-env-ref, as well as overriding declarations picked out automatically.
+</description>
+  <url>https://github.com/dmurat/jndi-declare-resource-ref/blob/master/README.md</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <organization>
+    <name>CROZ d.o.o.</name>
+    <url>http://www.croz.net/</url>
+  </organization>
+  <developers>
+    <developer>
+      <name>Damir Murat</name>
+      <email>damir.murat@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Franjo Žilić</name>
+      <email>frenky666@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Zoran Regvart</name>
+      <email>zregvart@croz.net</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/dmurat/jndi-declare-resource-ref/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/dmurat/jndi-declare-resource-ref</url>
+  </scm>
+  <dependencies />
+</project>
